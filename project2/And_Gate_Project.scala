@@ -15,9 +15,15 @@ class And_Gate_Project extends Component {
 
   val o = new Bundle {
     val LED_1 = out Bool
+    val LED_2 = out Bool
+    val LED_3 = out Bool
+    val LED_4 = out Bool
   }
 
   o.LED_1 := i.Switch_1 & i.Switch_2
+  o.LED_2 := False
+  o.LED_3 := False
+  o.LED_4 := False
 }
 
 object MyTopLevelVerilog {
