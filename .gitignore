@@ -7,6 +7,8 @@
 *.log
 *.bak
 
+*.asc
+
 # sbt specific
 .cache/
 .history/
